@@ -1,15 +1,18 @@
 {
-  "name": "angularjs-imageupload-directive",
-  "description": "imageupload Directive for AngularJS",
-  "version": "0.0.0",
-  "main": "public/javascripts/imageupload.js",
+  "name": "angular-image-upload-datauri",
+  "description": "image related Directives for AngularJS.",
+  "version": "1.0.8",
+  "main": "src/imageupload.js",
   "ignore": [
-    "**/.*",
-    "app.js",
-    "demo.html",
-    "package.json"
+    ".gitignore",
+    ".jshintrc",
+    "package.json",
+    "Makefile",
+    "node_modules",
+    "demo",
+    "bower_components"
   ],
-  "dependencies": {
-    "angularjs-unstable": "~1.1.4"
+  "devDependencies": {
+    "angular": "~1.2.15"
   }
 }
